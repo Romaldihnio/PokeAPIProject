@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Поиск покемонов</title>
+  <h1>для github</h1>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="title">Поиск покемонов</h1>
+    <form class="search">
+      <input type="text" class="search__input" placeholder="Введите имя или ID">
+      <button type="submit" class="search__button">Найти</button>
+    </form>
+  </header>
+
+  <main class="main">
+    <section class="card hidden">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+           alt="Пикачу" class="card__image">
+      <h2 class="card__name">Пикачу</h2>
+      <p class="card__id">ID: 025</p>
+      <p class="card__ability">Особенность: Статическое электричество</p>
+
+    </section>
+  </main>
+  <script src="js.js"></script>
+</body>
+</html>

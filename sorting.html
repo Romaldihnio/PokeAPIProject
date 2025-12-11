@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Поиск покемонов</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="title">Поиск покемонов</h1>
+  </header>
+    <section class="controls">
+            <input type="text" id="filter_name" class="control_input" placeholder="Фильтр по имени">
+            <select name="" id="filter_type" class="control_select">
+              <option value="">all types</option>
+              <option value="grass">grass</option>
+              <option value="fire">fire</option>
+              <option value="water">water</option>
+              <option value="electric">electric </option>
+              <option value="normal">normal</option>
+              <option value="posion">posion</option>
+              <option value="ground">ground</option>
+              <option value="fairy">fairy</option>
+              <option value="fighting">fighting</option>
+              <option value="physic">physic</option>
+              <option value="rock">rock</option>
+              <option value="dragon">dragon</option>
+              <option value="ghost">ghost</option>
+              <option value="dark">dark</option>
+              <option value="steel">steel</option>
+              <option value="flying">flying</option>
+            </select>
+            <select  id="sort_select" class="control_select">
+              <option value="id-asc">ID возр.</option>
+              <option value="id-desc">ID убыв.</option>
+              <option value="name-asc">Name a-z</option>
+              <option value="name-desc">Name z-a</option>
+
+            </select>
+    </section>
+   <div id="container">
+      
+   </div>
+
+   
+
+  <script src="sorting.js"></script>
+
+</body>
+</html>
