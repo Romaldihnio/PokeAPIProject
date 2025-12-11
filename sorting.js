@@ -1,5 +1,5 @@
 const api = "https://pokeapi.co/api/v2/pokemon"
-const limit = 127
+const limit = 60
 let pokemons = []
 let detailsArray = []
 let currentView = []
